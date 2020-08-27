@@ -2,7 +2,7 @@
 
 namespace Class_and_objects
 {
-    class Program
+    class ClassObjects
     { 
         void display()
         {
@@ -10,7 +10,7 @@ namespace Class_and_objects
         }
         static void Main(string[] args)
         {
-            Program a = new Program();
+            ClassObjects a = new ClassObjects();
             a.display();
         }
     }
